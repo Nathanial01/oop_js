@@ -6,8 +6,8 @@ class Car {
     this.width = width;
     this.height = height;
     this.speed = 0;
-    this.accleration = 0.1;
-    this.maxspeed = 2;
+    this.accleration = 0.2;
+    this.maxspeed = 3;
     this.friction = 0.05;
     this.angle = 0; // Corrected variable name
 

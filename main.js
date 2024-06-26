@@ -4,7 +4,7 @@ canvas.width = 400;
 
 const ctx = canvas.getContext("2d");//context to drow with all methods 
 const road = new Road(canvas.width/2,canvas.width*0.9);
-const car = new Car(100,100,30,50);//car obj
+const car = new Car(road.getLineCenter(1),100,30,50);//car obj ..road.getLineCenter(3) to set the care postion
 car.draw(ctx);//draw
 
 
